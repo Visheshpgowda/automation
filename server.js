@@ -38,8 +38,8 @@ async function runDiaryAutomation() {
       await page.click('button:has-text("I Understand")', { timeout: 4000 });
     } catch {}
 
-    await page.click('a[title="Internship Diary"]');
-    await page.waitForLoadState('networkidle');
+await page.locator('a[title="Internship Diary"]').click({ force: true });    a
+await page.waitForLoadState('networkidle');
 
     await page.click('#internship_id');
     await page.waitForSelector('[role="option"]');
