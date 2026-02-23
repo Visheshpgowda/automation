@@ -1,0 +1,14 @@
+{
+  "name": "diary-automation",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "openai": "^4.104.0",
+    "playwright": "^1.58.2"
+  }
+}
